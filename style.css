@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    background-color: #cecece
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 85px;
+}
+header{
+    background-color:  #00376e;
+    color:white;
+    padding: 20px 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+header .head{
+    display: flex;
+    align-items: center;
+    width: 90;
+    margin: auto;
+}
+header h1{
+    font-size: 25px;
+    font-weight: bold;
+  white-space: nowrap;
+}
+
+    
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li{
+    margin-left: 80px;
+    
+}
+nav ul li a {
+text-decoration: none;
+ color: white;
+ font-weight: 600;
+ font-size: 18px;
+ 
+ 
+}
+nav ul li a:hover{
+ color: rgb(92, 92, 92);
+ 
+}
+nav a:visited,nav a:active{
+    color: white;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+footer{
+     background-color: #00376e;
+     color: white;
+     text-align: center;
+     padding: 10px;
+}
+.btn{
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #161616;
+    color: #00376e
+}
+.intro{
+    float: right;
+    width: 50%;
+     margin-left: 40px;
+
+}
+.hometext{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+ 
+}
+.logo{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50%;
+}
